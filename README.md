@@ -1,7 +1,7 @@
-# atlas_gtm_agent_os
+# enterprise_gtm_agent_os
 
 **Category:** 99-uncategorized
-**Source:** atlas-gtm-agent-os.md
+**Source:** gtm-agent-os.md
 **Generated:** 2026-08-28
 
 ## Overview
@@ -12,16 +12,16 @@ This repository contains a generalized AI agent skill ready for use with Claude 
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/diamitani/atlas_gtm_agent_os-skill.git
+   git clone https://github.com/diamitani/enterprise_gtm_agent_os-skill.git
    ```
 
 2. Import the skill into your agent framework:
    ```bash
-   # For Claude Code
+   # for AI Agents (Claude Code, Cursor, Copilot, Cline, Windsurf, Hermes)
    @skill SKILL.md
    
    # For Hermes Agent
-   skill_view(name='atlas_gtm_agent_os')
+   skill_view(name='enterprise_gtm_agent_os')
    ```
 
 ## Configuration
