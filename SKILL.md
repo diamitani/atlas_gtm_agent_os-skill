@@ -1,26 +1,13 @@
 ---
-name: {{COMPANY_NAME}}-gtm-agent-os
+name: enterprise-platform-gtm-agent-os
 description: >
-  {{COMPANY_NAME}} GTM Agent OS — ROSTR-powered multi-agent system for Clay, HubSpot, n8n,
-  Amplemarket, Asana, Factors.ai, and Avoma. Fixes Clay prospecting automation,
-  manages HubSpot lists and sequences, checks pipeline health, and operates the
-  full {{COMPANY_NAME}} prospect automation workflow. Triggers on: any mention of Clay,
-  HubSpot, n8n, Amplemarket, Asana, prospect pipeline, enrichment, sequences,
-  outreach, AI Prospecting, or "fix my automation".
-allowed-tools:
-  - Bash
-  - Read
-  - Write
-  - Edit
-  - WebFetch
-  - WebSearch
-  - AskUserQuestion
+  Enterprise Platform GTM Agent OS — ROSTR-powered multi-agent system for Clay, HubSpot, n8n, Amplemarket, Asana, Factors.ai, and Avoma. Fixes Clay prospecting automation, manages HubSpot lists and sequences, checks pipeline health, and operates the full Enterprise Platform prospect automation workflow. Triggers on: any mention of Clay, HubSpot, n8n, Amplemarket, Asana, prospect pipeline, enrichment, sequences, outreach, AI Prospecting, or "fix my automation". allowed-tools: - Bash - Read - Write - Edit - WebFetch - WebSearch - AskUserQuestion
 ---
 
-# {{COMPANY_NAME}} GTM Agent OS
+# Enterprise Platform GTM Agent OS
 
 **ROSTR Framework**: PAL + NPAO + ContextEngine  
-**Built for**: {{USER_NAME}}, {{COMPANY_NAME}} GTM team
+**Built for**: {{USER_NAME}}, Enterprise Platform GTM team
 
 ---
 
@@ -234,7 +221,7 @@ for p in custom[:20]:
 
 **Functional job**: Manage outreach sequences and contact enrollment.
 
-### Check {{COMPANY_NAME}} sequences
+### Check Enterprise Platform sequences
 ```bash
 AMP_KEY="{{AMPLEMARKET_KEY}}"
 
